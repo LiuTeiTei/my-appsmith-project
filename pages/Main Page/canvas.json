@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Main Page",
+    "slug": "main-page",
     "layouts": [
       {
         "viewMode": false,
@@ -44,6 +44,7 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 20.0625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 5,
               "dynamicBindingPathList": [
                 {
@@ -53,11 +54,11 @@
                   "key": "borderRadius"
                 }
               ],
-              "text": "Submit",
+              "text": "Main Button",
               "isDisabled": false,
               "key": "1gkp0u3kf5",
               "isDeprecated": false,
-              "rightColumn": 15,
+              "rightColumn": 19,
               "isDefaultClickDisabled": true,
               "widgetId": "x65hxrgo5f",
               "minWidth": 120,
@@ -78,14 +79,15 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Main Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "6438c147e0735231ba676a3b_6438c147e0735231ba676a3d"
